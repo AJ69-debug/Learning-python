@@ -40,6 +40,6 @@ while True:
             print("\nThank you for playing.")
             break
         else:
-            raise valueError
+            raise ValueError
     except:
         print("\nInvalid input")
